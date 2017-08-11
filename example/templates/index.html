@@ -1,0 +1,8 @@
+{% from "_formhelpers.html" import render_field %}
+<form method=post>
+  <dl>
+    {{ render_field(form.openid) }}
+    {{ render_field(form.remember_me) }}
+    {{ render_field(form.text) }}
+  </dl>
+</form>

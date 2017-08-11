@@ -1,6 +1,6 @@
 from jinja2 import Markup
 from flask import current_app
-from flask_ckeditor.flelds import *
+from .fields import *
 
 
 class _ckeditor(object):

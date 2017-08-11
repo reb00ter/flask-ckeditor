@@ -1,6 +1,7 @@
 from wtforms import TextAreaField
 from wtforms.widgets import TextArea
 
+
 class CKEditor(TextArea):
     def __call__(self, field, **kwargs):
         c = kwargs.pop('class', '') or kwargs.pop('class_', '')
